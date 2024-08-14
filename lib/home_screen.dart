@@ -48,22 +48,22 @@ class HomeScreen extends StatelessWidget {
               child: Text('Click Me'),
             ),
             SizedBox(
-              height: 20, // Add some spacing between the button and the rich text
+              height: 20,
             ),
             Text.rich(
               TextSpan(
-                text: 'Welcome to ', // Default text style
+                text: 'Welcome to ',
                 children: <TextSpan>[
                   TextSpan(
                     text: 'Flutter!',
                     style: TextStyle(
-                      color: Colors.blue, // Blue color for "Flutter!"
+                      color: Colors.blue,
                       fontWeight: FontWeight.bold,
                     ),
                   ),
                 ],
               ),
-              style: TextStyle(fontSize: 18), // Base text style
+              style: TextStyle(fontSize: 18),
             ),
           ],
         ),
